@@ -1,0 +1,9 @@
+{
+  "include": [
+    "L-REPORT",
+    "L-REPORT-COPY",
+    "L-SHARED-1",
+    "L-GAP"
+  ],
+  "schema": "proofcask.include-list/v1"
+}

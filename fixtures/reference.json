@@ -1,0 +1,9 @@
+{
+  "include": "include.json",
+  "label": "proofcask-synthetic-fixture",
+  "map": "mappings.json",
+  "map_key": "mapping.key",
+  "new_manifest": "new_manifest.json",
+  "old_manifest": "old_manifest.json",
+  "schema": "proofcask.reference/v1"
+}

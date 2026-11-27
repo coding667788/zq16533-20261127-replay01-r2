@@ -1,0 +1,2929 @@
+{
+  "added": [
+    {
+      "classification": "added",
+      "differences": {},
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-ONLY-NEW",
+          "path": [
+            "new-only",
+            "fresh.txt"
+          ],
+          "payload_digest": "sha256:0cb9767b1f2d543f38db10783bb867688257568522692af1599881fae890d29a",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:3c99804ddf9d45316b50d4748bb8d429656a79b8777ed9ad90314cb9e77d2577",
+              "name": "fresh.txt",
+              "parent": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+              "siblings": []
+            },
+            {
+              "child": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+              "name": "new-only",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-ONLY-NEW",
+            "metadata": {
+              "custodian": "clerk-b"
+            },
+            "payload_digest": "sha256:0cb9767b1f2d543f38db10783bb867688257568522692af1599881fae890d29a"
+          },
+          "target_hash": "sha256:3c99804ddf9d45316b50d4748bb8d429656a79b8777ed9ad90314cb9e77d2577"
+        },
+        "old": null
+      },
+      "leaf_id": "L-ONLY-NEW",
+      "message": "stable leaf ID has a verifiable NEW proof and no OLD occurrence/gap",
+      "new_path": "new-only/fresh.txt",
+      "old_path": null,
+      "reason_code": "leaf_id_absent_from_old"
+    }
+  ],
+  "conflicting": [
+    {
+      "classification": "conflicting",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": false,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d",
+        "old_payload_digest": "sha256:0c1cde4f67af1a433feae3de2a02fbca56f824b4e3fbdd2bd3078e5688a21fb3",
+        "payload_digest_equal": false
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-CHANGED",
+          "path": [
+            "changes",
+            "changed.txt"
+          ],
+          "payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:9b0412f7e3c0d8c0e8eaa542412a2e7375f435f8dc67808598257066740cee7a",
+              "name": "changed.txt",
+              "parent": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+              "siblings": []
+            },
+            {
+              "child": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+              "name": "changes",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-CHANGED",
+            "metadata": {
+              "custodian": "alice"
+            },
+            "payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d"
+          },
+          "target_hash": "sha256:9b0412f7e3c0d8c0e8eaa542412a2e7375f435f8dc67808598257066740cee7a"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-CHANGED",
+          "path": [
+            "changes",
+            "changed.txt"
+          ],
+          "payload_digest": "sha256:0c1cde4f67af1a433feae3de2a02fbca56f824b4e3fbdd2bd3078e5688a21fb3",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:0f271f11bbdc8fa92d72d3ab0ec99cde38a4551966f14f93f53e57ed3e2893ef",
+              "name": "changed.txt",
+              "parent": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+              "siblings": []
+            },
+            {
+              "child": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+              "name": "changes",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-CHANGED",
+            "metadata": {
+              "custodian": "alice"
+            },
+            "payload_digest": "sha256:0c1cde4f67af1a433feae3de2a02fbca56f824b4e3fbdd2bd3078e5688a21fb3"
+          },
+          "target_hash": "sha256:0f271f11bbdc8fa92d72d3ab0ec99cde38a4551966f14f93f53e57ed3e2893ef"
+        }
+      },
+      "leaf_id": "L-CHANGED",
+      "message": "same stable leaf_id but sealed content/metadata differ",
+      "new_path": "changes/changed.txt",
+      "old_path": "changes/changed.txt",
+      "reason_code": "payload_digest_mismatch"
+    },
+    {
+      "classification": "conflicting",
+      "differences": {},
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-DUP",
+          "path": [
+            "duplicates",
+            "first.txt"
+          ],
+          "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+              "name": "first.txt",
+              "parent": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+              "siblings": [
+                {
+                  "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+                  "name": "second.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+              "name": "duplicates",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-DUP",
+            "metadata": {
+              "dedup_demo": true
+            },
+            "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c"
+          },
+          "target_hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c"
+        },
+        "new_all": [
+          {
+            "format": "proofcask.inclusion-proof/v1",
+            "leaf_id": "L-DUP",
+            "path": [
+              "duplicates",
+              "first.txt"
+            ],
+            "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c",
+            "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+            "steps": [
+              {
+                "child": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+                "name": "first.txt",
+                "parent": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                "siblings": [
+                  {
+                    "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+                    "name": "second.txt"
+                  }
+                ]
+              },
+              {
+                "child": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                "name": "duplicates",
+                "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+                "siblings": [
+                  {
+                    "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                    "name": "archive"
+                  },
+                  {
+                    "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                    "name": "changes"
+                  },
+                  {
+                    "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                    "name": "copies"
+                  },
+                  {
+                    "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                    "name": "curated"
+                  },
+                  {
+                    "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                    "name": "gap"
+                  },
+                  {
+                    "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                    "name": "metadata"
+                  },
+                  {
+                    "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                    "name": "new-only"
+                  },
+                  {
+                    "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                    "name": "shared"
+                  },
+                  {
+                    "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                    "name": "stable"
+                  },
+                  {
+                    "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                    "name": "twins"
+                  }
+                ]
+              }
+            ],
+            "subject_kind": "leaf",
+            "target": {
+              "kind": "leaf",
+              "leaf_id": "L-DUP",
+              "metadata": {
+                "dedup_demo": true
+              },
+              "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c"
+            },
+            "target_hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c"
+          },
+          {
+            "format": "proofcask.inclusion-proof/v1",
+            "leaf_id": "L-DUP",
+            "path": [
+              "duplicates",
+              "second.txt"
+            ],
+            "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c",
+            "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+            "steps": [
+              {
+                "child": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+                "name": "second.txt",
+                "parent": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                "siblings": [
+                  {
+                    "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+                    "name": "first.txt"
+                  }
+                ]
+              },
+              {
+                "child": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                "name": "duplicates",
+                "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+                "siblings": [
+                  {
+                    "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                    "name": "archive"
+                  },
+                  {
+                    "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                    "name": "changes"
+                  },
+                  {
+                    "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                    "name": "copies"
+                  },
+                  {
+                    "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                    "name": "curated"
+                  },
+                  {
+                    "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                    "name": "gap"
+                  },
+                  {
+                    "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                    "name": "metadata"
+                  },
+                  {
+                    "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                    "name": "new-only"
+                  },
+                  {
+                    "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                    "name": "shared"
+                  },
+                  {
+                    "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                    "name": "stable"
+                  },
+                  {
+                    "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                    "name": "twins"
+                  }
+                ]
+              }
+            ],
+            "subject_kind": "leaf",
+            "target": {
+              "kind": "leaf",
+              "leaf_id": "L-DUP",
+              "metadata": {
+                "dedup_demo": true
+              },
+              "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c"
+            },
+            "target_hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c"
+          }
+        ],
+        "new_paths": [
+          "duplicates/first.txt",
+          "duplicates/second.txt"
+        ],
+        "old": null,
+        "old_all": [],
+        "old_paths": []
+      },
+      "leaf_id": "L-DUP",
+      "message": "stable leaf_id occurs more than once in a sealed batch",
+      "new_path": "duplicates/first.txt",
+      "old_path": null,
+      "reason_code": "duplicate_exhibit"
+    },
+    {
+      "classification": "conflicting",
+      "differences": {
+        "changed_metadata_keys": [
+          "custodian",
+          "label"
+        ],
+        "leaf_commitment_equal": false,
+        "metadata_equal": false,
+        "new_payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+        "old_payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-META",
+          "path": [
+            "metadata",
+            "same-bytes.txt"
+          ],
+          "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:bcfe1b9f68817cdd18075d38b6568d2ae532710cd209e4e09eddbebbafa345d1",
+              "name": "same-bytes.txt",
+              "parent": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+              "siblings": []
+            },
+            {
+              "child": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+              "name": "metadata",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-META",
+            "metadata": {
+              "custodian": "bob",
+              "label": "corrected metadata"
+            },
+            "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a"
+          },
+          "target_hash": "sha256:bcfe1b9f68817cdd18075d38b6568d2ae532710cd209e4e09eddbebbafa345d1"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-META",
+          "path": [
+            "metadata",
+            "same-bytes.txt"
+          ],
+          "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:9f9562419895e2026a1a28e64bac78e2c875481b875b05c845ae73e5eb23e35f",
+              "name": "same-bytes.txt",
+              "parent": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+              "siblings": []
+            },
+            {
+              "child": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+              "name": "metadata",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-META",
+            "metadata": {
+              "custodian": "alice",
+              "label": "original"
+            },
+            "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a"
+          },
+          "target_hash": "sha256:9f9562419895e2026a1a28e64bac78e2c875481b875b05c845ae73e5eb23e35f"
+        }
+      },
+      "leaf_id": "L-META",
+      "message": "same stable leaf_id but sealed content/metadata differ",
+      "new_path": "metadata/same-bytes.txt",
+      "old_path": "metadata/same-bytes.txt",
+      "reason_code": "metadata_mismatch"
+    }
+  ],
+  "equivalent": [
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+        "old_payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": {
+          "path_match": true,
+          "record": {
+            "leaf_id": "L-CORRECTED",
+            "new_path": "curated/correct-name.txt",
+            "old_path": "intake/corrected.txt",
+            "op": "rename",
+            "record_id": "MAP-CORRECT-V2-RIGHT",
+            "signature": "hmac-sha256:14a303ca958a5b6af5d4341ed5b9de4e2110b9f97da0e4648a57023c0aee1f41",
+            "signed_at": "2026-11-20T10:10:00Z",
+            "signed_by": "supervisor@proofcask.example",
+            "supersedes": "MAP-CORRECT-V1-WRONG"
+          },
+          "verification": {
+            "reason_code": "valid_rename_mapping",
+            "revoked": false,
+            "signature_status": "valid",
+            "usable": true
+          }
+        },
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-CORRECTED",
+          "path": [
+            "curated",
+            "correct-name.txt"
+          ],
+          "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+              "name": "correct-name.txt",
+              "parent": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+              "siblings": [
+                {
+                  "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+                  "name": "revoked-target.txt"
+                },
+                {
+                  "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+                  "name": "unmapped.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+              "name": "curated",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-CORRECTED",
+            "metadata": {
+              "workflow": "correction-demo"
+            },
+            "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3"
+          },
+          "target_hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-CORRECTED",
+          "path": [
+            "intake",
+            "corrected.txt"
+          ],
+          "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+              "name": "corrected.txt",
+              "parent": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+              "siblings": [
+                {
+                  "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+                  "name": "revoked.txt"
+                },
+                {
+                  "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+                  "name": "unmapped.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+              "name": "intake",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-CORRECTED",
+            "metadata": {
+              "workflow": "correction-demo"
+            },
+            "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3"
+          },
+          "target_hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40"
+        }
+      },
+      "leaf_id": "L-CORRECTED",
+      "message": "signed, non-revoked mapping authorizes the path rename",
+      "new_path": "curated/correct-name.txt",
+      "old_path": "intake/corrected.txt",
+      "reason_code": "verified_rename"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+        "old_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": {
+          "path_match": true,
+          "record": {
+            "leaf_id": "L-REPORT",
+            "new_path": "archive/quarterly-renamed.txt",
+            "old_path": "reports/quarterly.txt",
+            "op": "rename",
+            "record_id": "MAP-REPORT-RENAME",
+            "signature": "hmac-sha256:884d941cbebf0f860380a26c5c445d4810ed307a3b7b552f5a0d48d5f5439742",
+            "signed_at": "2026-11-20T09:00:00Z",
+            "signed_by": "clerk@proofcask.example"
+          },
+          "verification": {
+            "reason_code": "valid_rename_mapping",
+            "revoked": false,
+            "signature_status": "valid",
+            "usable": true
+          }
+        },
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-REPORT",
+          "path": [
+            "archive",
+            "quarterly-renamed.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492",
+              "name": "quarterly-renamed.txt",
+              "parent": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+              "siblings": []
+            },
+            {
+              "child": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+              "name": "archive",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT",
+            "metadata": {
+              "series": "Q4",
+              "title": "Quarterly report"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "target_hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-REPORT",
+          "path": [
+            "reports",
+            "quarterly.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492",
+              "name": "quarterly.txt",
+              "parent": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+              "siblings": []
+            },
+            {
+              "child": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+              "name": "reports",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT",
+            "metadata": {
+              "series": "Q4",
+              "title": "Quarterly report"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "target_hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492"
+        }
+      },
+      "leaf_id": "L-REPORT",
+      "message": "signed, non-revoked mapping authorizes the path rename",
+      "new_path": "archive/quarterly-renamed.txt",
+      "old_path": "reports/quarterly.txt",
+      "reason_code": "verified_rename"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+        "old_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-REPORT-COPY",
+          "path": [
+            "copies",
+            "quarterly-copy.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0",
+              "name": "quarterly-copy.txt",
+              "parent": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+              "siblings": []
+            },
+            {
+              "child": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+              "name": "copies",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT-COPY",
+            "metadata": {
+              "copy": true,
+              "title": "Quarterly report working copy"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "target_hash": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-REPORT-COPY",
+          "path": [
+            "copies",
+            "quarterly-copy.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0",
+              "name": "quarterly-copy.txt",
+              "parent": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+              "siblings": []
+            },
+            {
+              "child": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+              "name": "copies",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT-COPY",
+            "metadata": {
+              "copy": true,
+              "title": "Quarterly report working copy"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "target_hash": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0"
+        }
+      },
+      "leaf_id": "L-REPORT-COPY",
+      "message": "leaf ID, payload digest, metadata, path and root proof agree",
+      "new_path": "copies/quarterly-copy.txt",
+      "old_path": "copies/quarterly-copy.txt",
+      "reason_code": "same_leaf_commitment"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+        "old_payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-SHARED-1",
+          "path": [
+            "shared",
+            "welcome.txt"
+          ],
+          "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b",
+              "name": "welcome.txt",
+              "parent": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "siblings": [
+                {
+                  "hash": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8",
+                  "name": "policy.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "name": "shared",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-SHARED-1",
+            "metadata": {
+              "custodian": "archive-bot",
+              "title": "Shared welcome"
+            },
+            "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388"
+          },
+          "target_hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-SHARED-1",
+          "path": [
+            "shared",
+            "welcome.txt"
+          ],
+          "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b",
+              "name": "welcome.txt",
+              "parent": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "siblings": [
+                {
+                  "hash": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8",
+                  "name": "policy.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "name": "shared",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-SHARED-1",
+            "metadata": {
+              "custodian": "archive-bot",
+              "title": "Shared welcome"
+            },
+            "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388"
+          },
+          "target_hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b"
+        }
+      },
+      "leaf_id": "L-SHARED-1",
+      "message": "leaf ID, payload digest, metadata, path and root proof agree",
+      "new_path": "shared/welcome.txt",
+      "old_path": "shared/welcome.txt",
+      "reason_code": "same_leaf_commitment"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a",
+        "old_payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-SHARED-2",
+          "path": [
+            "shared",
+            "policy.txt"
+          ],
+          "payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8",
+              "name": "policy.txt",
+              "parent": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "siblings": [
+                {
+                  "hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b",
+                  "name": "welcome.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "name": "shared",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-SHARED-2",
+            "metadata": {
+              "custodian": "archive-bot",
+              "title": "Shared policy"
+            },
+            "payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a"
+          },
+          "target_hash": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-SHARED-2",
+          "path": [
+            "shared",
+            "policy.txt"
+          ],
+          "payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8",
+              "name": "policy.txt",
+              "parent": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "siblings": [
+                {
+                  "hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b",
+                  "name": "welcome.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+              "name": "shared",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-SHARED-2",
+            "metadata": {
+              "custodian": "archive-bot",
+              "title": "Shared policy"
+            },
+            "payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a"
+          },
+          "target_hash": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8"
+        }
+      },
+      "leaf_id": "L-SHARED-2",
+      "message": "leaf ID, payload digest, metadata, path and root proof agree",
+      "new_path": "shared/policy.txt",
+      "old_path": "shared/policy.txt",
+      "reason_code": "same_leaf_commitment"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477",
+        "old_payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-STABLE",
+          "path": [
+            "stable",
+            "note.txt"
+          ],
+          "payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:b846152fb74bf23e199f2d4aeef99a2e9a33b42de9253a7e1c56c485bd50f87a",
+              "name": "note.txt",
+              "parent": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+              "siblings": []
+            },
+            {
+              "child": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+              "name": "stable",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-STABLE",
+            "metadata": {
+              "custodian": "clerk-a"
+            },
+            "payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477"
+          },
+          "target_hash": "sha256:b846152fb74bf23e199f2d4aeef99a2e9a33b42de9253a7e1c56c485bd50f87a"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-STABLE",
+          "path": [
+            "stable",
+            "note.txt"
+          ],
+          "payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:b846152fb74bf23e199f2d4aeef99a2e9a33b42de9253a7e1c56c485bd50f87a",
+              "name": "note.txt",
+              "parent": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+              "siblings": []
+            },
+            {
+              "child": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+              "name": "stable",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-STABLE",
+            "metadata": {
+              "custodian": "clerk-a"
+            },
+            "payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477"
+          },
+          "target_hash": "sha256:b846152fb74bf23e199f2d4aeef99a2e9a33b42de9253a7e1c56c485bd50f87a"
+        }
+      },
+      "leaf_id": "L-STABLE",
+      "message": "leaf ID, payload digest, metadata, path and root proof agree",
+      "new_path": "stable/note.txt",
+      "old_path": "stable/note.txt",
+      "reason_code": "same_leaf_commitment"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+        "old_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-TWIN-A",
+          "path": [
+            "twins",
+            "twin-a.txt"
+          ],
+          "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94",
+              "name": "twin-a.txt",
+              "parent": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "siblings": [
+                {
+                  "hash": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781",
+                  "name": "twin-b.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "name": "twins",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-TWIN-A",
+            "metadata": {
+              "accession": "A-100"
+            },
+            "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+          },
+          "target_hash": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-TWIN-A",
+          "path": [
+            "twins",
+            "twin-a.txt"
+          ],
+          "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94",
+              "name": "twin-a.txt",
+              "parent": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "siblings": [
+                {
+                  "hash": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781",
+                  "name": "twin-b.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "name": "twins",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-TWIN-A",
+            "metadata": {
+              "accession": "A-100"
+            },
+            "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+          },
+          "target_hash": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94"
+        }
+      },
+      "leaf_id": "L-TWIN-A",
+      "message": "leaf ID, payload digest, metadata, path and root proof agree",
+      "new_path": "twins/twin-a.txt",
+      "old_path": "twins/twin-a.txt",
+      "reason_code": "same_leaf_commitment"
+    },
+    {
+      "classification": "equivalent",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+        "old_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-TWIN-B",
+          "path": [
+            "twins",
+            "twin-b.txt"
+          ],
+          "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781",
+              "name": "twin-b.txt",
+              "parent": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "siblings": [
+                {
+                  "hash": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94",
+                  "name": "twin-a.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "name": "twins",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-TWIN-B",
+            "metadata": {
+              "accession": "B-200"
+            },
+            "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+          },
+          "target_hash": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-TWIN-B",
+          "path": [
+            "twins",
+            "twin-b.txt"
+          ],
+          "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781",
+              "name": "twin-b.txt",
+              "parent": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "siblings": [
+                {
+                  "hash": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94",
+                  "name": "twin-a.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+              "name": "twins",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-TWIN-B",
+            "metadata": {
+              "accession": "B-200"
+            },
+            "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+          },
+          "target_hash": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781"
+        }
+      },
+      "leaf_id": "L-TWIN-B",
+      "message": "leaf ID, payload digest, metadata, path and root proof agree",
+      "new_path": "twins/twin-b.txt",
+      "old_path": "twins/twin-b.txt",
+      "reason_code": "same_leaf_commitment"
+    }
+  ],
+  "indeterminate": [
+    {
+      "classification": "indeterminate",
+      "differences": {},
+      "evidence": {
+        "mapping": null,
+        "new": null,
+        "new_gap": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": null,
+          "path": [
+            "gap",
+            "2024"
+          ],
+          "payload_digest": null,
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+              "name": "2024",
+              "parent": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+              "siblings": []
+            },
+            {
+              "child": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+              "name": "gap",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "missing_node",
+          "target": null,
+          "target_hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-GAP",
+          "path": [
+            "gap",
+            "2024",
+            "index.txt"
+          ],
+          "payload_digest": "sha256:fe60bbf3f3a093ee496c5d06130f261dd9032a33571262e87811365599f87a0b",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:5d865f5312053f96380a5cf1a3c61deacbf21c3be484c2b5535a018319f39e9f",
+              "name": "index.txt",
+              "parent": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+              "siblings": []
+            },
+            {
+              "child": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+              "name": "2024",
+              "parent": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+              "siblings": []
+            },
+            {
+              "child": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+              "name": "gap",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-GAP",
+            "metadata": {
+              "page": "2024/index"
+            },
+            "payload_digest": "sha256:fe60bbf3f3a093ee496c5d06130f261dd9032a33571262e87811365599f87a0b"
+          },
+          "target_hash": "sha256:5d865f5312053f96380a5cf1a3c61deacbf21c3be484c2b5535a018319f39e9f"
+        }
+      },
+      "leaf_id": "L-GAP",
+      "message": "NEW root commits a reference to a page absent from the supplied manifest",
+      "new_path": null,
+      "old_path": "gap/2024/index.txt",
+      "reason_code": "missing_intermediate_node"
+    },
+    {
+      "classification": "indeterminate",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+        "old_payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": {
+          "path_match": true,
+          "record": {
+            "leaf_id": "L-REVOKED",
+            "new_path": "curated/revoked-target.txt",
+            "old_path": "intake/revoked.txt",
+            "op": "rename",
+            "record_id": "MAP-REVOKED-RENAME",
+            "signature": "hmac-sha256:4d7dfbd7b6d7df0e4caf1e8dee2de60e2b1487bc5975a3db68e2c521824891bb",
+            "signed_at": "2026-11-21T09:00:00Z",
+            "signed_by": "clerk@proofcask.example"
+          },
+          "verification": {
+            "reason_code": "rename_mapping_revoked",
+            "revocation_record_id": "MAP-REVOKED-CORRECTION",
+            "revoked": true,
+            "signature_status": "valid",
+            "usable": false
+          }
+        },
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-REVOKED",
+          "path": [
+            "curated",
+            "revoked-target.txt"
+          ],
+          "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+              "name": "revoked-target.txt",
+              "parent": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+              "siblings": [
+                {
+                  "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+                  "name": "correct-name.txt"
+                },
+                {
+                  "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+                  "name": "unmapped.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+              "name": "curated",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-REVOKED",
+            "metadata": {
+              "workflow": "revocation-demo"
+            },
+            "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868"
+          },
+          "target_hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-REVOKED",
+          "path": [
+            "intake",
+            "revoked.txt"
+          ],
+          "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+              "name": "revoked.txt",
+              "parent": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+              "siblings": [
+                {
+                  "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+                  "name": "corrected.txt"
+                },
+                {
+                  "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+                  "name": "unmapped.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+              "name": "intake",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-REVOKED",
+            "metadata": {
+              "workflow": "revocation-demo"
+            },
+            "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868"
+          },
+          "target_hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13"
+        }
+      },
+      "leaf_id": "L-REVOKED",
+      "message": "leaf bytes agree, but the path rename lacks currently verifiable authorization",
+      "new_path": "curated/revoked-target.txt",
+      "old_path": "intake/revoked.txt",
+      "reason_code": "rename_mapping_revoked"
+    },
+    {
+      "classification": "indeterminate",
+      "differences": {
+        "changed_metadata_keys": [],
+        "leaf_commitment_equal": true,
+        "metadata_equal": true,
+        "new_payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+        "old_payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+        "payload_digest_equal": true
+      },
+      "evidence": {
+        "mapping": null,
+        "new": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-UNMAPPED",
+          "path": [
+            "curated",
+            "unmapped.txt"
+          ],
+          "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+              "name": "unmapped.txt",
+              "parent": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+              "siblings": [
+                {
+                  "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+                  "name": "correct-name.txt"
+                },
+                {
+                  "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+                  "name": "revoked-target.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+              "name": "curated",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-UNMAPPED",
+            "metadata": {
+              "workflow": "missing-map-demo"
+            },
+            "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b"
+          },
+          "target_hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860"
+        },
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-UNMAPPED",
+          "path": [
+            "intake",
+            "unmapped.txt"
+          ],
+          "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+              "name": "unmapped.txt",
+              "parent": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+              "siblings": [
+                {
+                  "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+                  "name": "corrected.txt"
+                },
+                {
+                  "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+                  "name": "revoked.txt"
+                }
+              ]
+            },
+            {
+              "child": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+              "name": "intake",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+                  "name": "old-only"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-UNMAPPED",
+            "metadata": {
+              "workflow": "missing-map-demo"
+            },
+            "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b"
+          },
+          "target_hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860"
+        }
+      },
+      "leaf_id": "L-UNMAPPED",
+      "message": "leaf bytes agree, but the path rename lacks currently verifiable authorization",
+      "new_path": "curated/unmapped.txt",
+      "old_path": "intake/unmapped.txt",
+      "reason_code": "rename_mapping_missing"
+    }
+  ],
+  "missing": [
+    {
+      "classification": "missing",
+      "differences": {},
+      "evidence": {
+        "mapping": null,
+        "new": null,
+        "old": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": "L-ONLY-OLD",
+          "path": [
+            "old-only",
+            "vanished.txt"
+          ],
+          "payload_digest": "sha256:eefe6c5d1ad2b4db29aa5cb13eebc862bc0da6a88e95511cdd321f6e05248517",
+          "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+          "steps": [
+            {
+              "child": "sha256:ec490314b54906574e32ad1b579b0e1d0df6ea1508469ab82b891982919fc9cc",
+              "name": "vanished.txt",
+              "parent": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+              "siblings": []
+            },
+            {
+              "child": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+              "name": "old-only",
+              "parent": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+              "siblings": [
+                {
+                  "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+                  "name": "gap"
+                },
+                {
+                  "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+                  "name": "intake"
+                },
+                {
+                  "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+                  "name": "reports"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "leaf",
+          "target": {
+            "kind": "leaf",
+            "leaf_id": "L-ONLY-OLD",
+            "metadata": {
+              "custodian": "clerk-a"
+            },
+            "payload_digest": "sha256:eefe6c5d1ad2b4db29aa5cb13eebc862bc0da6a88e95511cdd321f6e05248517"
+          },
+          "target_hash": "sha256:ec490314b54906574e32ad1b579b0e1d0df6ea1508469ab82b891982919fc9cc"
+        }
+      },
+      "leaf_id": "L-ONLY-OLD",
+      "message": "stable leaf ID has a verifiable OLD proof and no NEW occurrence/gap",
+      "new_path": null,
+      "old_path": "old-only/vanished.txt",
+      "reason_code": "leaf_id_absent_from_new"
+    }
+  ],
+  "observations": {
+    "legal_same_digest_exhibits": [
+      {
+        "distinct_exhibits": true,
+        "leaf_ids": [
+          "L-REPORT",
+          "L-REPORT-COPY"
+        ],
+        "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+      },
+      {
+        "distinct_exhibits": true,
+        "leaf_ids": [
+          "L-TWIN-A",
+          "L-TWIN-B"
+        ],
+        "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+      }
+    ],
+    "mapping_key_available": true,
+    "mapping_key_id": "fixture-hmac-key",
+    "shared_subtrees": [
+      {
+        "legal_shared_subtree": true,
+        "new_paths": [
+          "shared"
+        ],
+        "node_hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+        "old_paths": [
+          "shared"
+        ]
+      },
+      {
+        "legal_shared_subtree": true,
+        "new_paths": [
+          "gap"
+        ],
+        "node_hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+        "old_paths": [
+          "gap"
+        ]
+      },
+      {
+        "legal_shared_subtree": true,
+        "new_paths": [
+          "stable"
+        ],
+        "node_hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+        "old_paths": [
+          "stable"
+        ]
+      },
+      {
+        "legal_shared_subtree": true,
+        "new_paths": [
+          "twins"
+        ],
+        "node_hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+        "old_paths": [
+          "twins"
+        ]
+      },
+      {
+        "legal_shared_subtree": true,
+        "new_paths": [
+          "copies"
+        ],
+        "node_hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+        "old_paths": [
+          "copies"
+        ]
+      }
+    ]
+  },
+  "ok": true,
+  "roots": {
+    "new": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+    "old": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a"
+  },
+  "schema": "proofcask.reconcile/v1",
+  "source_ref": {
+    "map": "fixtures\\mappings.json",
+    "new_manifest": "fixtures\\new_manifest.json",
+    "old_manifest": "fixtures\\old_manifest.json",
+    "reference_hint": {
+      "key_id": "fixture-hmac-key",
+      "map": "fixtures\\mappings.json",
+      "new_manifest": "fixtures\\new_manifest.json",
+      "old_manifest": "fixtures\\old_manifest.json",
+      "schema": "proofcask.reference/v1"
+    }
+  },
+  "summary": {
+    "added": 1,
+    "conflicting": 3,
+    "equivalent": 8,
+    "indeterminate": 3,
+    "missing": 1,
+    "new_tree_gaps": 1,
+    "old_tree_gaps": 0
+  },
+  "tree_gaps": {
+    "new": [
+      {
+        "hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+        "path": [
+          "gap",
+          "2024"
+        ],
+        "path_string": "gap/2024",
+        "proof": {
+          "format": "proofcask.inclusion-proof/v1",
+          "leaf_id": null,
+          "path": [
+            "gap",
+            "2024"
+          ],
+          "payload_digest": null,
+          "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+          "steps": [
+            {
+              "child": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+              "name": "2024",
+              "parent": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+              "siblings": []
+            },
+            {
+              "child": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+              "name": "gap",
+              "parent": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+              "siblings": [
+                {
+                  "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+                  "name": "archive"
+                },
+                {
+                  "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+                  "name": "changes"
+                },
+                {
+                  "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+                  "name": "copies"
+                },
+                {
+                  "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+                  "name": "curated"
+                },
+                {
+                  "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+                  "name": "duplicates"
+                },
+                {
+                  "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+                  "name": "metadata"
+                },
+                {
+                  "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+                  "name": "new-only"
+                },
+                {
+                  "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+                  "name": "shared"
+                },
+                {
+                  "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+                  "name": "stable"
+                },
+                {
+                  "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+                  "name": "twins"
+                }
+              ]
+            }
+          ],
+          "subject_kind": "missing_node",
+          "target": null,
+          "target_hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45"
+        }
+      }
+    ],
+    "old": []
+  }
+}

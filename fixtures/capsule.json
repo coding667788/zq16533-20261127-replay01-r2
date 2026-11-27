@@ -1,0 +1,1111 @@
+{
+  "canonicalization": {
+    "branch_domain": "proofcask:branch:v1",
+    "json": "UTF-8, object keys sorted, compact separators for hashes",
+    "leaf_domain": "proofcask:leaf:v1",
+    "node_pool_order": "node hash ascending",
+    "target_order": "kind, leaf_id, path, target_hash"
+  },
+  "delta": {
+    "entries": [
+      {
+        "classification": "conflicting",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": false,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d",
+          "old_payload_digest": "sha256:0c1cde4f67af1a433feae3de2a02fbca56f824b4e3fbdd2bd3078e5688a21fb3",
+          "payload_digest_equal": false
+        },
+        "leaf_id": "L-CHANGED",
+        "mapping_record_id": null,
+        "message": "same stable leaf_id but sealed content/metadata differ",
+        "new_path": "changes/changed.txt",
+        "old_path": "changes/changed.txt",
+        "reason_code": "payload_digest_mismatch"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+          "old_payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-CORRECTED",
+        "mapping_record_id": "MAP-CORRECT-V2-RIGHT",
+        "message": "signed, non-revoked mapping authorizes the path rename",
+        "new_path": "curated/correct-name.txt",
+        "old_path": "intake/corrected.txt",
+        "reason_code": "verified_rename"
+      },
+      {
+        "classification": "conflicting",
+        "differences": {},
+        "leaf_id": "L-DUP",
+        "mapping_record_id": null,
+        "message": "stable leaf_id occurs more than once in a sealed batch",
+        "new_path": "duplicates/first.txt",
+        "old_path": null,
+        "reason_code": "duplicate_exhibit"
+      },
+      {
+        "classification": "indeterminate",
+        "differences": {},
+        "leaf_id": "L-GAP",
+        "mapping_record_id": null,
+        "message": "NEW root commits a reference to a page absent from the supplied manifest",
+        "new_path": null,
+        "old_path": "gap/2024/index.txt",
+        "reason_code": "missing_intermediate_node"
+      },
+      {
+        "classification": "conflicting",
+        "differences": {
+          "changed_metadata_keys": [
+            "custodian",
+            "label"
+          ],
+          "leaf_commitment_equal": false,
+          "metadata_equal": false,
+          "new_payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+          "old_payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-META",
+        "mapping_record_id": null,
+        "message": "same stable leaf_id but sealed content/metadata differ",
+        "new_path": "metadata/same-bytes.txt",
+        "old_path": "metadata/same-bytes.txt",
+        "reason_code": "metadata_mismatch"
+      },
+      {
+        "classification": "added",
+        "differences": {},
+        "leaf_id": "L-ONLY-NEW",
+        "mapping_record_id": null,
+        "message": "stable leaf ID has a verifiable NEW proof and no OLD occurrence/gap",
+        "new_path": "new-only/fresh.txt",
+        "old_path": null,
+        "reason_code": "leaf_id_absent_from_old"
+      },
+      {
+        "classification": "missing",
+        "differences": {},
+        "leaf_id": "L-ONLY-OLD",
+        "mapping_record_id": null,
+        "message": "stable leaf ID has a verifiable OLD proof and no NEW occurrence/gap",
+        "new_path": null,
+        "old_path": "old-only/vanished.txt",
+        "reason_code": "leaf_id_absent_from_new"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "old_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-REPORT",
+        "mapping_record_id": "MAP-REPORT-RENAME",
+        "message": "signed, non-revoked mapping authorizes the path rename",
+        "new_path": "archive/quarterly-renamed.txt",
+        "old_path": "reports/quarterly.txt",
+        "reason_code": "verified_rename"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "old_payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-REPORT-COPY",
+        "mapping_record_id": null,
+        "message": "leaf ID, payload digest, metadata, path and root proof agree",
+        "new_path": "copies/quarterly-copy.txt",
+        "old_path": "copies/quarterly-copy.txt",
+        "reason_code": "same_leaf_commitment"
+      },
+      {
+        "classification": "indeterminate",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+          "old_payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-REVOKED",
+        "mapping_record_id": "MAP-REVOKED-RENAME",
+        "message": "leaf bytes agree, but the path rename lacks currently verifiable authorization",
+        "new_path": "curated/revoked-target.txt",
+        "old_path": "intake/revoked.txt",
+        "reason_code": "rename_mapping_revoked"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+          "old_payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-SHARED-1",
+        "mapping_record_id": null,
+        "message": "leaf ID, payload digest, metadata, path and root proof agree",
+        "new_path": "shared/welcome.txt",
+        "old_path": "shared/welcome.txt",
+        "reason_code": "same_leaf_commitment"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a",
+          "old_payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-SHARED-2",
+        "mapping_record_id": null,
+        "message": "leaf ID, payload digest, metadata, path and root proof agree",
+        "new_path": "shared/policy.txt",
+        "old_path": "shared/policy.txt",
+        "reason_code": "same_leaf_commitment"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477",
+          "old_payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-STABLE",
+        "mapping_record_id": null,
+        "message": "leaf ID, payload digest, metadata, path and root proof agree",
+        "new_path": "stable/note.txt",
+        "old_path": "stable/note.txt",
+        "reason_code": "same_leaf_commitment"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "old_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-TWIN-A",
+        "mapping_record_id": null,
+        "message": "leaf ID, payload digest, metadata, path and root proof agree",
+        "new_path": "twins/twin-a.txt",
+        "old_path": "twins/twin-a.txt",
+        "reason_code": "same_leaf_commitment"
+      },
+      {
+        "classification": "equivalent",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "old_payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-TWIN-B",
+        "mapping_record_id": null,
+        "message": "leaf ID, payload digest, metadata, path and root proof agree",
+        "new_path": "twins/twin-b.txt",
+        "old_path": "twins/twin-b.txt",
+        "reason_code": "same_leaf_commitment"
+      },
+      {
+        "classification": "indeterminate",
+        "differences": {
+          "changed_metadata_keys": [],
+          "leaf_commitment_equal": true,
+          "metadata_equal": true,
+          "new_payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+          "old_payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+          "payload_digest_equal": true
+        },
+        "leaf_id": "L-UNMAPPED",
+        "mapping_record_id": null,
+        "message": "leaf bytes agree, but the path rename lacks currently verifiable authorization",
+        "new_path": "curated/unmapped.txt",
+        "old_path": "intake/unmapped.txt",
+        "reason_code": "rename_mapping_missing"
+      }
+    ],
+    "summary": {
+      "added": 1,
+      "conflicting": 3,
+      "equivalent": 8,
+      "indeterminate": 3,
+      "missing": 1,
+      "new_tree_gaps": 1,
+      "old_tree_gaps": 0
+    }
+  },
+  "included": [
+    "L-GAP",
+    "L-REPORT",
+    "L-REPORT-COPY",
+    "L-SHARED-1"
+  ],
+  "mapping_receipts": [
+    {
+      "path_match": true,
+      "record": {
+        "leaf_id": "L-CORRECTED",
+        "new_path": "curated/correct-name.txt",
+        "old_path": "intake/corrected.txt",
+        "op": "rename",
+        "record_id": "MAP-CORRECT-V2-RIGHT",
+        "signature": "hmac-sha256:14a303ca958a5b6af5d4341ed5b9de4e2110b9f97da0e4648a57023c0aee1f41",
+        "signed_at": "2026-11-20T10:10:00Z",
+        "signed_by": "supervisor@proofcask.example",
+        "supersedes": "MAP-CORRECT-V1-WRONG"
+      },
+      "verification": {
+        "reason_code": "valid_rename_mapping",
+        "revoked": false,
+        "signature_status": "valid",
+        "usable": true
+      }
+    },
+    {
+      "path_match": true,
+      "record": {
+        "leaf_id": "L-REPORT",
+        "new_path": "archive/quarterly-renamed.txt",
+        "old_path": "reports/quarterly.txt",
+        "op": "rename",
+        "record_id": "MAP-REPORT-RENAME",
+        "signature": "hmac-sha256:884d941cbebf0f860380a26c5c445d4810ed307a3b7b552f5a0d48d5f5439742",
+        "signed_at": "2026-11-20T09:00:00Z",
+        "signed_by": "clerk@proofcask.example"
+      },
+      "verification": {
+        "reason_code": "valid_rename_mapping",
+        "revoked": false,
+        "signature_status": "valid",
+        "usable": true
+      }
+    },
+    {
+      "path_match": true,
+      "record": {
+        "leaf_id": "L-REVOKED",
+        "new_path": "curated/revoked-target.txt",
+        "old_path": "intake/revoked.txt",
+        "op": "rename",
+        "record_id": "MAP-REVOKED-RENAME",
+        "signature": "hmac-sha256:4d7dfbd7b6d7df0e4caf1e8dee2de60e2b1487bc5975a3db68e2c521824891bb",
+        "signed_at": "2026-11-21T09:00:00Z",
+        "signed_by": "clerk@proofcask.example"
+      },
+      "verification": {
+        "reason_code": "rename_mapping_revoked",
+        "revocation_record_id": "MAP-REVOKED-CORRECTION",
+        "revoked": true,
+        "signature_status": "valid",
+        "usable": false
+      }
+    }
+  ],
+  "node_pool": [
+    {
+      "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:9f9562419895e2026a1a28e64bac78e2c875481b875b05c845ae73e5eb23e35f",
+            "name": "same-bytes.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+            "name": "first.txt"
+          },
+          {
+            "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+            "name": "second.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8",
+            "name": "policy.txt"
+          },
+          {
+            "hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b",
+            "name": "welcome.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492",
+            "name": "quarterly-renamed.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:0f271f11bbdc8fa92d72d3ab0ec99cde38a4551966f14f93f53e57ed3e2893ef",
+            "name": "changed.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+            "name": "2024"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:ec490314b54906574e32ad1b579b0e1d0df6ea1508469ab82b891982919fc9cc",
+            "name": "vanished.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+            "name": "archive"
+          },
+          {
+            "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+            "name": "changes"
+          },
+          {
+            "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+            "name": "copies"
+          },
+          {
+            "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+            "name": "curated"
+          },
+          {
+            "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+            "name": "duplicates"
+          },
+          {
+            "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+            "name": "gap"
+          },
+          {
+            "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+            "name": "metadata"
+          },
+          {
+            "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+            "name": "new-only"
+          },
+          {
+            "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+            "name": "shared"
+          },
+          {
+            "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+            "name": "stable"
+          },
+          {
+            "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+            "name": "twins"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+            "name": "correct-name.txt"
+          },
+          {
+            "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+            "name": "revoked-target.txt"
+          },
+          {
+            "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+            "name": "unmapped.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+            "name": "corrected.txt"
+          },
+          {
+            "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+            "name": "revoked.txt"
+          },
+          {
+            "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+            "name": "unmapped.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:9b0412f7e3c0d8c0e8eaa542412a2e7375f435f8dc67808598257066740cee7a",
+            "name": "changed.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:bcfe1b9f68817cdd18075d38b6568d2ae532710cd209e4e09eddbebbafa345d1",
+            "name": "same-bytes.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0",
+            "name": "quarterly-copy.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:449bfd861d0fe160ebb6ace89dce4c85fc703d94bc0b93ad43d2f94ac58e3c8b",
+            "name": "changes"
+          },
+          {
+            "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+            "name": "copies"
+          },
+          {
+            "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+            "name": "gap"
+          },
+          {
+            "hash": "sha256:9d3c9f4dfbb240c5b09b8c8184fcfaed2aeb0a5c02aa19f6853acb1f5b224331",
+            "name": "intake"
+          },
+          {
+            "hash": "sha256:27dfefbfa4d875be506b0768a8d7cb596450cde535a2a755832d817aaaf1f8ac",
+            "name": "metadata"
+          },
+          {
+            "hash": "sha256:75d13da9207a51192950b8edc37e78ea6c0644999ed04cf48de6177584e8ae16",
+            "name": "old-only"
+          },
+          {
+            "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+            "name": "reports"
+          },
+          {
+            "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+            "name": "shared"
+          },
+          {
+            "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+            "name": "stable"
+          },
+          {
+            "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+            "name": "twins"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:5d865f5312053f96380a5cf1a3c61deacbf21c3be484c2b5535a018319f39e9f",
+            "name": "index.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:3c99804ddf9d45316b50d4748bb8d429656a79b8777ed9ad90314cb9e77d2577",
+            "name": "fresh.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    },
+    {
+      "hash": "sha256:f94b64eb73945651b8922d4af1f659d4d5a51674330ecafa9310dbb0fc769bc3",
+      "node": {
+        "children": [
+          {
+            "hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492",
+            "name": "quarterly.txt"
+          }
+        ],
+        "kind": "branch"
+      }
+    }
+  ],
+  "ok": true,
+  "proofs": {
+    "new": {
+      "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+      "targets": [
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-CHANGED",
+            "metadata": {
+              "custodian": "alice"
+            },
+            "payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d"
+          },
+          "leaf_id": "L-CHANGED",
+          "path": [
+            "changes",
+            "changed.txt"
+          ],
+          "payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d",
+          "target_hash": "sha256:9b0412f7e3c0d8c0e8eaa542412a2e7375f435f8dc67808598257066740cee7a"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-CORRECTED",
+            "metadata": {
+              "workflow": "correction-demo"
+            },
+            "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3"
+          },
+          "leaf_id": "L-CORRECTED",
+          "path": [
+            "curated",
+            "correct-name.txt"
+          ],
+          "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+          "target_hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-DUP",
+            "metadata": {
+              "dedup_demo": true
+            },
+            "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c"
+          },
+          "leaf_id": "L-DUP",
+          "path": [
+            "duplicates",
+            "first.txt"
+          ],
+          "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c",
+          "target_hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-DUP",
+            "metadata": {
+              "dedup_demo": true
+            },
+            "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c"
+          },
+          "leaf_id": "L-DUP",
+          "path": [
+            "duplicates",
+            "second.txt"
+          ],
+          "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c",
+          "target_hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-META",
+            "metadata": {
+              "custodian": "bob",
+              "label": "corrected metadata"
+            },
+            "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a"
+          },
+          "leaf_id": "L-META",
+          "path": [
+            "metadata",
+            "same-bytes.txt"
+          ],
+          "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+          "target_hash": "sha256:bcfe1b9f68817cdd18075d38b6568d2ae532710cd209e4e09eddbebbafa345d1"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-ONLY-NEW",
+            "metadata": {
+              "custodian": "clerk-b"
+            },
+            "payload_digest": "sha256:0cb9767b1f2d543f38db10783bb867688257568522692af1599881fae890d29a"
+          },
+          "leaf_id": "L-ONLY-NEW",
+          "path": [
+            "new-only",
+            "fresh.txt"
+          ],
+          "payload_digest": "sha256:0cb9767b1f2d543f38db10783bb867688257568522692af1599881fae890d29a",
+          "target_hash": "sha256:3c99804ddf9d45316b50d4748bb8d429656a79b8777ed9ad90314cb9e77d2577"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT",
+            "metadata": {
+              "series": "Q4",
+              "title": "Quarterly report"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "leaf_id": "L-REPORT",
+          "path": [
+            "archive",
+            "quarterly-renamed.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "target_hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT-COPY",
+            "metadata": {
+              "copy": true,
+              "title": "Quarterly report working copy"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "leaf_id": "L-REPORT-COPY",
+          "path": [
+            "copies",
+            "quarterly-copy.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "target_hash": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-REVOKED",
+            "metadata": {
+              "workflow": "revocation-demo"
+            },
+            "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868"
+          },
+          "leaf_id": "L-REVOKED",
+          "path": [
+            "curated",
+            "revoked-target.txt"
+          ],
+          "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+          "target_hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-SHARED-1",
+            "metadata": {
+              "custodian": "archive-bot",
+              "title": "Shared welcome"
+            },
+            "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388"
+          },
+          "leaf_id": "L-SHARED-1",
+          "path": [
+            "shared",
+            "welcome.txt"
+          ],
+          "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+          "target_hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-UNMAPPED",
+            "metadata": {
+              "workflow": "missing-map-demo"
+            },
+            "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b"
+          },
+          "leaf_id": "L-UNMAPPED",
+          "path": [
+            "curated",
+            "unmapped.txt"
+          ],
+          "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+          "target_hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860"
+        },
+        {
+          "kind": "missing_node",
+          "leaf": null,
+          "leaf_id": null,
+          "path": [
+            "gap",
+            "2024"
+          ],
+          "payload_digest": null,
+          "target_hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45"
+        }
+      ]
+    },
+    "old": {
+      "root": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a",
+      "targets": [
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-CHANGED",
+            "metadata": {
+              "custodian": "alice"
+            },
+            "payload_digest": "sha256:0c1cde4f67af1a433feae3de2a02fbca56f824b4e3fbdd2bd3078e5688a21fb3"
+          },
+          "leaf_id": "L-CHANGED",
+          "path": [
+            "changes",
+            "changed.txt"
+          ],
+          "payload_digest": "sha256:0c1cde4f67af1a433feae3de2a02fbca56f824b4e3fbdd2bd3078e5688a21fb3",
+          "target_hash": "sha256:0f271f11bbdc8fa92d72d3ab0ec99cde38a4551966f14f93f53e57ed3e2893ef"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-CORRECTED",
+            "metadata": {
+              "workflow": "correction-demo"
+            },
+            "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3"
+          },
+          "leaf_id": "L-CORRECTED",
+          "path": [
+            "intake",
+            "corrected.txt"
+          ],
+          "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3",
+          "target_hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-GAP",
+            "metadata": {
+              "page": "2024/index"
+            },
+            "payload_digest": "sha256:fe60bbf3f3a093ee496c5d06130f261dd9032a33571262e87811365599f87a0b"
+          },
+          "leaf_id": "L-GAP",
+          "path": [
+            "gap",
+            "2024",
+            "index.txt"
+          ],
+          "payload_digest": "sha256:fe60bbf3f3a093ee496c5d06130f261dd9032a33571262e87811365599f87a0b",
+          "target_hash": "sha256:5d865f5312053f96380a5cf1a3c61deacbf21c3be484c2b5535a018319f39e9f"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-META",
+            "metadata": {
+              "custodian": "alice",
+              "label": "original"
+            },
+            "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a"
+          },
+          "leaf_id": "L-META",
+          "path": [
+            "metadata",
+            "same-bytes.txt"
+          ],
+          "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a",
+          "target_hash": "sha256:9f9562419895e2026a1a28e64bac78e2c875481b875b05c845ae73e5eb23e35f"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-ONLY-OLD",
+            "metadata": {
+              "custodian": "clerk-a"
+            },
+            "payload_digest": "sha256:eefe6c5d1ad2b4db29aa5cb13eebc862bc0da6a88e95511cdd321f6e05248517"
+          },
+          "leaf_id": "L-ONLY-OLD",
+          "path": [
+            "old-only",
+            "vanished.txt"
+          ],
+          "payload_digest": "sha256:eefe6c5d1ad2b4db29aa5cb13eebc862bc0da6a88e95511cdd321f6e05248517",
+          "target_hash": "sha256:ec490314b54906574e32ad1b579b0e1d0df6ea1508469ab82b891982919fc9cc"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT",
+            "metadata": {
+              "series": "Q4",
+              "title": "Quarterly report"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "leaf_id": "L-REPORT",
+          "path": [
+            "reports",
+            "quarterly.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "target_hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-REPORT-COPY",
+            "metadata": {
+              "copy": true,
+              "title": "Quarterly report working copy"
+            },
+            "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+          },
+          "leaf_id": "L-REPORT-COPY",
+          "path": [
+            "copies",
+            "quarterly-copy.txt"
+          ],
+          "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11",
+          "target_hash": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-REVOKED",
+            "metadata": {
+              "workflow": "revocation-demo"
+            },
+            "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868"
+          },
+          "leaf_id": "L-REVOKED",
+          "path": [
+            "intake",
+            "revoked.txt"
+          ],
+          "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868",
+          "target_hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-SHARED-1",
+            "metadata": {
+              "custodian": "archive-bot",
+              "title": "Shared welcome"
+            },
+            "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388"
+          },
+          "leaf_id": "L-SHARED-1",
+          "path": [
+            "shared",
+            "welcome.txt"
+          ],
+          "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388",
+          "target_hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b"
+        },
+        {
+          "kind": "leaf",
+          "leaf": {
+            "kind": "leaf",
+            "leaf_id": "L-UNMAPPED",
+            "metadata": {
+              "workflow": "missing-map-demo"
+            },
+            "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b"
+          },
+          "leaf_id": "L-UNMAPPED",
+          "path": [
+            "intake",
+            "unmapped.txt"
+          ],
+          "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b",
+          "target_hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860"
+        }
+      ]
+    }
+  },
+  "reference": "proofcask-synthetic-fixture",
+  "roots": {
+    "new": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+    "old": "sha256:d4155e9771abb6611a17d1b4b00a03cef5c18e44691cfdc601b866ed7a3fea7a"
+  },
+  "schema": "proofcask.capsule/v1",
+  "shared_subtrees": [
+    {
+      "legal_shared_subtree": true,
+      "new_paths": [
+        "shared"
+      ],
+      "node_hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+      "old_paths": [
+        "shared"
+      ]
+    },
+    {
+      "legal_shared_subtree": true,
+      "new_paths": [
+        "gap"
+      ],
+      "node_hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+      "old_paths": [
+        "gap"
+      ]
+    },
+    {
+      "legal_shared_subtree": true,
+      "new_paths": [
+        "stable"
+      ],
+      "node_hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+      "old_paths": [
+        "stable"
+      ]
+    },
+    {
+      "legal_shared_subtree": true,
+      "new_paths": [
+        "twins"
+      ],
+      "node_hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+      "old_paths": [
+        "twins"
+      ]
+    },
+    {
+      "legal_shared_subtree": true,
+      "new_paths": [
+        "copies"
+      ],
+      "node_hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+      "old_paths": [
+        "copies"
+      ]
+    }
+  ]
+}

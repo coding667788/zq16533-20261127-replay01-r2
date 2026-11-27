@@ -5,3 +5,5 @@ __pycache__/
 .env.*
 *.pem
 *.key
+# The HMAC key below is a public, synthetic test fixture only.
+!fixtures/mapping.key

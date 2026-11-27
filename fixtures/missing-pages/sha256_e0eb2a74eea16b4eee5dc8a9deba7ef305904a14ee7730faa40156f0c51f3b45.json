@@ -1,0 +1,13 @@
+{
+  "hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+  "node": {
+    "children": [
+      {
+        "hash": "sha256:5d865f5312053f96380a5cf1a3c61deacbf21c3be484c2b5535a018319f39e9f",
+        "name": "index.txt"
+      }
+    ],
+    "kind": "branch"
+  },
+  "note": "Out-of-band copy of a page absent from new_manifest.json; proofcask does not read it."
+}

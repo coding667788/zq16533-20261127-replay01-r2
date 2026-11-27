@@ -1,0 +1,301 @@
+{
+  "batch_id": "BATCH-NEW-SYNTHETIC",
+  "nodes": {
+    "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b": {
+      "kind": "leaf",
+      "leaf_id": "L-SHARED-1",
+      "metadata": {
+        "custodian": "archive-bot",
+        "title": "Shared welcome"
+      },
+      "payload_digest": "sha256:c523c4b94c9273bd66d91e35fddb3a32b4a1572dd6a712c3f53c62d1020e2388"
+    },
+    "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0": {
+      "kind": "leaf",
+      "leaf_id": "L-REPORT-COPY",
+      "metadata": {
+        "copy": true,
+        "title": "Quarterly report working copy"
+      },
+      "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+    },
+    "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94": {
+      "kind": "leaf",
+      "leaf_id": "L-TWIN-A",
+      "metadata": {
+        "accession": "A-100"
+      },
+      "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+    },
+    "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f": {
+      "children": [
+        {
+          "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+          "name": "first.txt"
+        },
+        {
+          "hash": "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c",
+          "name": "second.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75": {
+      "children": [
+        {
+          "hash": "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8",
+          "name": "policy.txt"
+        },
+        {
+          "hash": "sha256:091a529e93be0abeb9b8373886d2a4a3cddb27fff960b2a352acb35e33aac67b",
+          "name": "welcome.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:3c99804ddf9d45316b50d4748bb8d429656a79b8777ed9ad90314cb9e77d2577": {
+      "kind": "leaf",
+      "leaf_id": "L-ONLY-NEW",
+      "metadata": {
+        "custodian": "clerk-b"
+      },
+      "payload_digest": "sha256:0cb9767b1f2d543f38db10783bb867688257568522692af1599881fae890d29a"
+    },
+    "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492": {
+      "kind": "leaf",
+      "leaf_id": "L-REPORT",
+      "metadata": {
+        "series": "Q4",
+        "title": "Quarterly report"
+      },
+      "payload_digest": "sha256:1227c2efcf56f585ddf3a175b4f7eac4417240909fb60f505eee7f59a2357f11"
+    },
+    "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197": {
+      "children": [
+        {
+          "hash": "sha256:403c06e2a92fc6e5832ca70cffd3e2f2ca85f014a722a12496ded8325d158492",
+          "name": "quarterly-renamed.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:5d865f5312053f96380a5cf1a3c61deacbf21c3be484c2b5535a018319f39e9f": {
+      "kind": "leaf",
+      "leaf_id": "L-GAP",
+      "metadata": {
+        "page": "2024/index"
+      },
+      "payload_digest": "sha256:fe60bbf3f3a093ee496c5d06130f261dd9032a33571262e87811365599f87a0b"
+    },
+    "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0": {
+      "children": [
+        {
+          "hash": "sha256:e0eb2a74eea16b4eee5dc8a9deba7ef305904a14ee7730faa40156f0c51f3b45",
+          "name": "2024"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1": {
+      "children": [
+        {
+          "hash": "sha256:b846152fb74bf23e199f2d4aeef99a2e9a33b42de9253a7e1c56c485bd50f87a",
+          "name": "note.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75": {
+      "children": [
+        {
+          "hash": "sha256:43c6dab76ce203f949292b6f2f259b4a64d6d1d357162d41d2035ac906617197",
+          "name": "archive"
+        },
+        {
+          "hash": "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f",
+          "name": "changes"
+        },
+        {
+          "hash": "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2",
+          "name": "copies"
+        },
+        {
+          "hash": "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f",
+          "name": "curated"
+        },
+        {
+          "hash": "sha256:393be23729551fff7dda1951fd0f61e53a655b0a1e42491c59f7370be4e4215f",
+          "name": "duplicates"
+        },
+        {
+          "hash": "sha256:63d85cff5f909c6164d40a62ae0942757e54550804589a2a485dbadf9bb020b0",
+          "name": "gap"
+        },
+        {
+          "hash": "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882",
+          "name": "metadata"
+        },
+        {
+          "hash": "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563",
+          "name": "new-only"
+        },
+        {
+          "hash": "sha256:3b551b19330fd671f1f03ef58758e4069ff5ceb4b1fdf5830c335cc64f166e75",
+          "name": "shared"
+        },
+        {
+          "hash": "sha256:7f6cd6fab1c3749438bb5a2fd215830a0ffde142c46609fd346f5f445733a4c1",
+          "name": "stable"
+        },
+        {
+          "hash": "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d",
+          "name": "twins"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:83eaccee586395cbf4edf351110b5a97b7b842c698f2359b6479a55ca889893f": {
+      "children": [
+        {
+          "hash": "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40",
+          "name": "correct-name.txt"
+        },
+        {
+          "hash": "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13",
+          "name": "revoked-target.txt"
+        },
+        {
+          "hash": "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860",
+          "name": "unmapped.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:878f98dc9f9f3b39ae8e6dfb42eaa2d7349b0990120c744780e103a17fdc8ac8": {
+      "kind": "leaf",
+      "leaf_id": "L-SHARED-2",
+      "metadata": {
+        "custodian": "archive-bot",
+        "title": "Shared policy"
+      },
+      "payload_digest": "sha256:4f498417041833b6c60596af9776db3465312a06ac2d0adb3f91850dd33ebb0a"
+    },
+    "sha256:980d2a61d4f3e941c344cd42b4a7b99bb3201f08440377cee877bc6c28383860": {
+      "kind": "leaf",
+      "leaf_id": "L-UNMAPPED",
+      "metadata": {
+        "workflow": "missing-map-demo"
+      },
+      "payload_digest": "sha256:6941a0dee2a1ce57592f5e6c5d240dcf02d81afb751a9f0dff16b5dd68ee453b"
+    },
+    "sha256:9b0412f7e3c0d8c0e8eaa542412a2e7375f435f8dc67808598257066740cee7a": {
+      "kind": "leaf",
+      "leaf_id": "L-CHANGED",
+      "metadata": {
+        "custodian": "alice"
+      },
+      "payload_digest": "sha256:648936787a174f0a669edde01f69f209227484018686736ce1978f00823e9a1d"
+    },
+    "sha256:a15170d08a5310112c4bad22ed3758a021d4f302f50b497ac1de0a825573bf13": {
+      "kind": "leaf",
+      "leaf_id": "L-REVOKED",
+      "metadata": {
+        "workflow": "revocation-demo"
+      },
+      "payload_digest": "sha256:0ea4b5f2a00cf4b112e2e1456be6a7f2460ed24ef924afa99db3853db8c3e868"
+    },
+    "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781": {
+      "kind": "leaf",
+      "leaf_id": "L-TWIN-B",
+      "metadata": {
+        "accession": "B-200"
+      },
+      "payload_digest": "sha256:f2ae204ddb1e17865f72eaadba649d0c3784136d8ffe34ee2162c2a23db00032"
+    },
+    "sha256:b65725cd8889846ab9768aaa6529204067bcc7d965e83d0b8eaece2d60c4d36c": {
+      "kind": "leaf",
+      "leaf_id": "L-DUP",
+      "metadata": {
+        "dedup_demo": true
+      },
+      "payload_digest": "sha256:af785365867a933b27cd59047aa807f05bb9199bb92ec4005464999dd2cf1b2c"
+    },
+    "sha256:b846152fb74bf23e199f2d4aeef99a2e9a33b42de9253a7e1c56c485bd50f87a": {
+      "kind": "leaf",
+      "leaf_id": "L-STABLE",
+      "metadata": {
+        "custodian": "clerk-a"
+      },
+      "payload_digest": "sha256:87f18c6d24a9f16e54166ffca23c310d5d6031cda6aa34d1503e92e761ade477"
+    },
+    "sha256:bcf7ecdcbc014c36eb89375559b75c1f7d2ede06b66dd43b45f30491e12d122d": {
+      "children": [
+        {
+          "hash": "sha256:32c16a37077209fd9a07f5e375e1c65affd575ad66f755931a73eaf0600aaf94",
+          "name": "twin-a.txt"
+        },
+        {
+          "hash": "sha256:afcec07ef7e70069da923f3478a71515625bb9712260e55b1169a30bc564c781",
+          "name": "twin-b.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:bcfe1b9f68817cdd18075d38b6568d2ae532710cd209e4e09eddbebbafa345d1": {
+      "kind": "leaf",
+      "leaf_id": "L-META",
+      "metadata": {
+        "custodian": "bob",
+        "label": "corrected metadata"
+      },
+      "payload_digest": "sha256:4fdd9c5f2e0c0d13e2f09ba5575076ebf66eefe995891bd58e1f19eb2ab93c8a"
+    },
+    "sha256:c2a7eff4d285ca51c4954bb8ba117794de48f1b1f090d4bd166016ab5185823f": {
+      "children": [
+        {
+          "hash": "sha256:9b0412f7e3c0d8c0e8eaa542412a2e7375f435f8dc67808598257066740cee7a",
+          "name": "changed.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:ca9df06540bec10dc2d1da2655bb5067b6c2e0a271027e714f46052bd457c882": {
+      "children": [
+        {
+          "hash": "sha256:bcfe1b9f68817cdd18075d38b6568d2ae532710cd209e4e09eddbebbafa345d1",
+          "name": "same-bytes.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:d32e46653f607b3d9545e955e66ac3dd3b21a35276f05e2d6a8da53e0501e2f2": {
+      "children": [
+        {
+          "hash": "sha256:0b580b40d759e7e06f11d9c7040ddefbaef2b16c1508b51ac093ecd2b9b838b0",
+          "name": "quarterly-copy.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:e76bc7cf4535fc33f4279b1fd323b4fbc8a6a4bbd503ecdcfb2a06118a532563": {
+      "children": [
+        {
+          "hash": "sha256:3c99804ddf9d45316b50d4748bb8d429656a79b8777ed9ad90314cb9e77d2577",
+          "name": "fresh.txt"
+        }
+      ],
+      "kind": "branch"
+    },
+    "sha256:f23da84a222e974373b7c84f5d87cf9afe5c59855a51ea35f91eebe916a15b40": {
+      "kind": "leaf",
+      "leaf_id": "L-CORRECTED",
+      "metadata": {
+        "workflow": "correction-demo"
+      },
+      "payload_digest": "sha256:881d00af1458f9241eb6114ff8df35eb8b4ede690cd3dd84840c36b2ce4c2cc3"
+    }
+  },
+  "root": "sha256:800d38f340c86632e9ca861eb59303b6c70d292ab95a6b80206c3a844360ab75",
+  "schema": "proofcask.manifest/v1",
+  "sealed_at": "2026-11-27T09:00:00Z"
+}

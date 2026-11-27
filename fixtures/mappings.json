@@ -1,0 +1,67 @@
+{
+  "bundle_id": "MAP-BUNDLE-SYNTHETIC",
+  "key_file": "mapping.key",
+  "key_id": "fixture-hmac-key",
+  "records": [
+    {
+      "leaf_id": "L-REPORT",
+      "new_path": "archive/quarterly-renamed.txt",
+      "old_path": "reports/quarterly.txt",
+      "op": "rename",
+      "record_id": "MAP-REPORT-RENAME",
+      "signature": "hmac-sha256:884d941cbebf0f860380a26c5c445d4810ed307a3b7b552f5a0d48d5f5439742",
+      "signed_at": "2026-11-20T09:00:00Z",
+      "signed_by": "clerk@proofcask.example"
+    },
+    {
+      "leaf_id": "L-CORRECTED",
+      "new_path": "curated/wrong-name.txt",
+      "old_path": "intake/corrected.txt",
+      "op": "rename",
+      "record_id": "MAP-CORRECT-V1-WRONG",
+      "signature": "hmac-sha256:1769660116ea59fb0c94022e88b5a7a87680039510d70844f38b45ef032dcb20",
+      "signed_at": "2026-11-20T09:05:00Z",
+      "signed_by": "clerk@proofcask.example"
+    },
+    {
+      "op": "revoke",
+      "reason": "correction: wrong destination selected",
+      "record_id": "MAP-CORRECT-V1-REVOKE",
+      "signature": "hmac-sha256:ee4bac271587cfc8d48f6ee6f959ab5c322b6cddf83b7db1fa26ee105eebd223",
+      "signed_at": "2026-11-20T10:05:00Z",
+      "signed_by": "supervisor@proofcask.example",
+      "target_record_id": "MAP-CORRECT-V1-WRONG"
+    },
+    {
+      "leaf_id": "L-CORRECTED",
+      "new_path": "curated/correct-name.txt",
+      "old_path": "intake/corrected.txt",
+      "op": "rename",
+      "record_id": "MAP-CORRECT-V2-RIGHT",
+      "signature": "hmac-sha256:14a303ca958a5b6af5d4341ed5b9de4e2110b9f97da0e4648a57023c0aee1f41",
+      "signed_at": "2026-11-20T10:10:00Z",
+      "signed_by": "supervisor@proofcask.example",
+      "supersedes": "MAP-CORRECT-V1-WRONG"
+    },
+    {
+      "leaf_id": "L-REVOKED",
+      "new_path": "curated/revoked-target.txt",
+      "old_path": "intake/revoked.txt",
+      "op": "rename",
+      "record_id": "MAP-REVOKED-RENAME",
+      "signature": "hmac-sha256:4d7dfbd7b6d7df0e4caf1e8dee2de60e2b1487bc5975a3db68e2c521824891bb",
+      "signed_at": "2026-11-21T09:00:00Z",
+      "signed_by": "clerk@proofcask.example"
+    },
+    {
+      "op": "revoke",
+      "reason": "later correction withdraws this path mapping",
+      "record_id": "MAP-REVOKED-CORRECTION",
+      "signature": "hmac-sha256:3741272e2902b30e494d405579b963f4b47382f8679f485d61bbdb11769bcf87",
+      "signed_at": "2026-11-22T09:00:00Z",
+      "signed_by": "supervisor@proofcask.example",
+      "target_record_id": "MAP-REVOKED-RENAME"
+    }
+  ],
+  "schema": "proofcask.mapping-bundle/v1"
+}
